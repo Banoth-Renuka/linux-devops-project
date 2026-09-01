@@ -1,4 +1,4 @@
-O
+
 
 # Linux DevOps Project 🐧
 
@@ -102,3 +102,52 @@ du
 O
 
 >>>>>>> 7a99d96 (Initial Linux DevOps project)
+O
+
+---
+
+## 📸 Project Screenshots
+
+### 1. Project Directory Structure
+
+![Project Structure](screenshots/project-structure.png)
+
+### 2. Application Files
+
+![Application Files](screenshots/application-files.png)
+
+### 3. Configuration Files
+
+![Configuration Files](screenshots/config-files.png)
+
+### 4. Logs
+
+![Logs](screenshots/logs.png)
+
+### 5. Backup Creation
+
+![Backup](screenshots/backup.png)
+
+### 6. Bash Scripts
+
+![Scripts](screenshots/scripts.png)
+O
+
+🚀 Key Learning Outcomes
+
+Through this project, I gained hands-on experience with fundamental Linux and DevOps-related operations.
+
+I learned how to:
+
+Organize application files and directO
+ories
+Work with absolute and relative paths
+Create and manage files from the command line
+Manage configuration files
+Create and inspect log files
+Search for files using Linux commands
+Check disk and directory usage
+Create compressed application backups
+Understand Linux file permissions
+Create and execute basic Bash scripts
+Manage a project using Git and GitHub
