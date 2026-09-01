@@ -1,0 +1,3 @@
+GET /index.html 200
+GET /login 200
+GET /products 200
