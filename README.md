@@ -1,19 +1,10 @@
-
-
 # Linux DevOps Project 🐧
-
 ## 📌 Project Overview
-
 This project demonstrates a simulated Linux-based application server environment.
-
 The objective of this project is to understand how application resources, configuration files, logs, backups, and operational scripts can be organized and managed on a Linux server using the command line.
-
 This project was completed as part of my hands-on DevOps learning and internship practice.
-
 ---
-
 ## 🎯 Project Objectives
-
 - Understand Linux file and directory organization
 - Practice absolute and relative paths
 - Create and manage application directories
@@ -24,11 +15,8 @@ This project was completed as part of my hands-on DevOps learning and internship
 - Create and manage backups
 - Develop basic Bash scripts
 - Understand basic Linux operations used in DevOps workflows
-
 ---
-
 ## 🏗️ Project Structure
-
 ```text
 linux-devops-project/
 │
@@ -69,7 +57,6 @@ linux-devops-project/
 - GitHub
 
 ## 🔧 Tasks Performed
-
 - Created and organized application directories
 - Managed files and directories using Linux commands
 - Created application and configuration files
@@ -80,7 +67,6 @@ linux-devops-project/
 - Created and executed basic Bash scripts
 
 ## 📋 Linux Commands Practiced
-
 ```bash
 mkdir
 cd
@@ -99,48 +85,97 @@ chmod
 tar
 df
 du
-O
 
->>>>>>> 7a99d96 (Initial Linux DevOps project)
-O
+🛠️ Technologies and Skills Used
+Linux
+Bash Scripting
+Linux File System
+File and Directory Management
+Absolute and Relative Paths
+Linux File Permissions
+Log Management
+File Search and Inspection
+Disk Usage Monitoring
+Backup and Archive Management
+Command-Line Operations
+Git
+GitHub
 
----
+1.Application Directory
+The application/ directory contains the files and resources required for the simulated application.
+Source
+The source/ directory contains:
+app.py – Sample application source file
+README.md – Application-related documentation
+Public
+The public/ directory contains:
+index.html – Sample HTML page
+style.css – Sample CSS stylesheet
+Data
+The data/ directory contains:
+users.txt – Sample user data
+products.txt – Sample product data
 
-## 📸 Project Screenshots
+2. Configuration Management
+The config/ directory contains application configuration files.
+app.conf – Application configuration
+database.conf – Database configuration
+This demonstrates how configuration files can be organized separately from application source code.
 
-### 1. Project Directory Structure
+3.Log Management
+The logs/ directory contains different types of application logs.
+application.log – General application activity
+error.log – Error-related messages
+access.log – Application access information
+Linux commands such as cat, tail, and grep were used to inspect and search log information.
+ File Search and Inspection
+Linux find and grep commands were used to search for files and information.
+Examples:
+find . -name "*.log"
+find . -name "*.conf"
+find . -name "*.txt"
+find . -type d
 
-![Project Structure](screenshots/project-structure.png)
+4. Linux Navigation and Disk Usage
+The following Linux commands were practiced:
+pwd
+cd
+ls
+df -h
+du -sh .
+These commands help with directory navigation and checking system and directory disk usage.
 
-### 2. Application Files
+5. Backup Management
+A compressed application backup was created using the tar command.
+The application and config directories were archived into:
+backup/application-backup.tar.gz
+Example:
+tar -czf backup/application-backup.tar.gz application config
+The backup was verified using:
+ls -lh backup/
 
-![Application Files](screenshots/application-files.png)
+6. Bash Automation Scripts
+The scripts/ directory contains basic Bash scripts for application operations.
+start.sh – Simulates starting the application
+stop.sh – Simulates stopping the application
+backup.sh – Automates the application backup process
 
-### 3. Configuration Files
+The scripts were made executable using:
+chmod +x scripts/*.sh
+They can be executed using:
+./scripts/start.sh
+./scripts/stop.sh
+./scripts/backup.sh
 
-![Configuration Files](screenshots/config-files.png)
+7. File Permissions
+Linux file permissions were practiced using commands such as:
+chmod +x scripts/*.sh
+ls -l scripts/
 
-### 4. Logs
-
-![Logs](screenshots/logs.png)
-
-### 5. Backup Creation
-
-![Backup](screenshots/backup.png)
-
-### 6. Bash Scripts
-
-![Scripts](screenshots/scripts.png)
-O
-
-🚀 Key Learning Outcomes
-
+ Key Learning Outcomes
 Through this project, I gained hands-on experience with fundamental Linux and DevOps-related operations.
-
 I learned how to:
-
-Organize application files and directO
-ories
+Organize application files and directories
 Work with absolute and relative paths
 Create and manage files from the command line
 Manage configuration files
